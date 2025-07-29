@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/boat"
+        android:icon="@drawable/ic_action_directions_boat"
+        android:title="boat"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/bus"
+        android:icon="@drawable/ic_action_directions_bus"
+        android:title="bus"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/car"
+        android:icon="@drawable/ic_action_directions_car"
+        android:title="car"
+        app:showAsAction="never"/>
+</menu>
